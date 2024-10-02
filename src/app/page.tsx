@@ -12,7 +12,7 @@ export default function Home() {
         </h1>
       </section>
 
-      <section className="flex  pb-12 items-start container justify-between">
+      <section className="flex flex-col md:flex-col lg:flex-row pb-12 items-start container justify-between">
         <InvoiceForm />
         <InvoiceWithThemes />
       </section>
